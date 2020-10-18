@@ -1,4 +1,10 @@
 package com.sts.spanishTongueSoundrestApi.service;
 
-public class InscriptionFormService {
+import com.sts.spanishTongueSoundrestApi.model.InscriptionForm;
+
+import java.util.List;
+
+public interface InscriptionFormService {
+    List<InscriptionForm> getAllForms();
+    String saveForm (InscriptionForm inscriptionForm);
 }
