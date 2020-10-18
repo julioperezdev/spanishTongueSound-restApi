@@ -23,6 +23,8 @@ public class InscriptionForm {
 
     private Number phoneForm;
 
+    //contactForm//
+    //private Boolean formRequestAnswer
     //private String "contact box message, question or inscription"
 
 }
