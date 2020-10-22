@@ -11,17 +11,17 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Document
 
-public class InscriptionForm {
+public class ContactForm {
     @Id
-    private String idForm;
+    private String idContactForm;
 
-    private String nameForm;
+    private String nameContactForm;
 
-    private Number ageForm;
+    private Number ageContactForm;
 
-    private String emailForm;
+    private String emailContactForm;
 
-    private Number phoneForm;
+    private Number phoneContactForm;
 
     //contactForm//
     //private Boolean formRequestAnswer
