@@ -19,12 +19,16 @@ public class ContactForm {
 
     private Number ageContactForm;
 
+    private String sexContactForm;
+
     private String emailContactForm;
 
     private Number phoneContactForm;
 
-    //contactForm//
+    private String countryContactForm;
+
+    private String boxMessageContactForm;
+
     //private Boolean formRequestAnswer
-    //private String "contact box message, question or inscription"
 
 }
