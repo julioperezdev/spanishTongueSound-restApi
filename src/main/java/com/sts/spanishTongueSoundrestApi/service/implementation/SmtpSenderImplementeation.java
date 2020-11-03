@@ -11,7 +11,7 @@ import javax.mail.internet.MimeMessage;
 import java.io.UnsupportedEncodingException;
 
 @Service
-public class SmtpMailSenderImplementation {
+public class SmtpSenderImplementeation {
 
     @Autowired
     private JavaMailSender javaMailSender;
