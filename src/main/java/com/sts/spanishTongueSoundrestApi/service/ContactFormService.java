@@ -1,5 +1,6 @@
 package com.sts.spanishTongueSoundrestApi.service;
 
+<<<<<<< HEAD
 import com.sts.spanishTongueSoundrestApi.model.ContactForm2;
 
 import java.util.List;
@@ -17,4 +18,13 @@ public interface ContactFormService {
 
 
 
+=======
+import com.sts.spanishTongueSoundrestApi.model.ContactForm;
+
+import java.util.List;
+
+public interface ContactFormService {
+    List<ContactForm> getAllForms();
+    String saveForm (ContactForm contactForm);
+>>>>>>> origin/dev
 }
