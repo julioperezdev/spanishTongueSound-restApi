@@ -10,6 +10,7 @@ import java.util.List;
 
 @Service
 public class ContactFormServiceImp implements ContactFormService {
+
     @Autowired
     ContactFormRepository contactFormRepository;
 

@@ -35,7 +35,7 @@ public class SmtpSenderImplementeation {
 
         helper.setFrom("ceo@protobot.dev", "Spanish Tongue Sound");
         helper.setSubject(mailSubject);
-        helper.setTo("andrese.959595@gmail.com");
+        helper.setTo("perezjulioernesto@gmail.com");
         helper.setText(mailContent,true);
 
         javaMailSender.send(message);

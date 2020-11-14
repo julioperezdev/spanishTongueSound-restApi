@@ -2,7 +2,7 @@ package com.sts.spanishTongueSoundrestApi.service.implementation;
 
 import com.sts.spanishTongueSoundrestApi.model.ContactForm2;
 import com.sts.spanishTongueSoundrestApi.repository.ContactForm2Repository;
-import com.sts.spanishTongueSoundrestApi.service.ContactFormService;
+import com.sts.spanishTongueSoundrestApi.service.ContactForm2Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class ContactForm2ServiceImplementation implements ContactFormService {
+public class ContactForm2ServiceImplementation implements ContactForm2Service {
 
     @Autowired
     ContactForm2Repository contactForm2Repository;
