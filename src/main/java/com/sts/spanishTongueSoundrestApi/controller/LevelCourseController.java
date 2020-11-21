@@ -25,7 +25,7 @@ public class LevelCourseController {
         return levelCourseServiceImplementation.getLevelCourseById(idLevelCourse);
     }
 
-    @PostMapping
+    @PostMapping("/save")
     public String saveLevelCourse(LevelCourse levelCourse){
         return levelCourseServiceImplementation.saveLevelCourse(levelCourse);
     }
