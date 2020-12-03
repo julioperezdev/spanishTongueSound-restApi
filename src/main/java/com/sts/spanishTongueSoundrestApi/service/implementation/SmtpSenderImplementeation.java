@@ -24,18 +24,21 @@ public class SmtpSenderImplementeation {
 
 
         String mailSubject = contactForm.getNameContactForm() + " would like to concrete a schedule for an Online course ";
-        String mailContent = "<h2>You have a new inquiry</h2>" +
-                "<br><br><p>name: </p>"+ contactForm.getNameContactForm() +
-                "<br><p>phone number: </p>"+ contactForm.getPhoneContactForm() +
-                "<br><p>email: </p>"+ contactForm.getEmailContactForm() +
-                "<br><p>age: </p>"+ contactForm.getAgeContactForm() +
-                "<br><p>sex: </p>"+ contactForm.getSexContactForm() +
-                "<br><p>country: </p>"+ contactForm.getCountryContactForm()+
-                "<br><p>message: </p>"+ contactForm.getBoxMessageContactForm();
+        String mailContent = "<h1><center>Spanish Tongue Sound</h1></center>" +
+                "<h2>You have received a new inquiry </h2>" +
+                "<p>" + contactForm.getNameContactForm() + " has contacted you for a spanish course. </p>" +
+                "<ul>" +
+                "<li><p><b>Name: </b>"+ contactForm.getNameContactForm() + "</p>" + "</li>" +
+                "<li><p><b>Phone Number: </b>"+ contactForm.getPhoneContactForm() + "</p>" + "</li>" +
+                "<li><p><b>Email: </b>"+ contactForm.getEmailContactForm() + "</p>" + "</li>" +
+                "<li><p><b>Age: </b>"+ contactForm.getAgeContactForm() + "</p>" + "</li>" +
+                "<li><p><b>Sex: </b>"+ contactForm.getSexContactForm() + "</p>" + "</li>" +
+                "<li><p><b>Country: </b>"+ contactForm.getCountryContactForm() + "</p>"+ "</li>" +
+                "<li><p><b>Message: </b>"+ contactForm.getBoxMessageContactForm() + "</p>" + "</li>" + "</ul>";
 
         helper.setFrom("ceo@protobot.dev", "Spanish Tongue Sound");
         helper.setSubject(mailSubject);
-        helper.setTo("perezjulioernesto@gmail.com");
+        helper.setTo("andrese.959595@gmail.com");
         helper.setText(mailContent,true);
 
         javaMailSender.send(message);
